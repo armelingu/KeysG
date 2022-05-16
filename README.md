@@ -1,4 +1,4 @@
-# KeysG - Gerador Automático de senhas
+# KeysG - Gerador Automático de Senhas
 
 Aqui criei um gerador de senhas automático com um limite minímo de 5 caracteres e máximo de 15 caracteres.
 
