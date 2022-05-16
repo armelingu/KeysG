@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initiation">
+    <meta name="keywords" content="gerador de senhas, gerador de passwords">
+    <title>Gerador de senha | By @armelingu</title>
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    
+    <img class="keysgen-logo" src="./Assets/keysgen-logo.png" alt="Gerador de senhas logo" />
+
+    <main class="container-input">
+        <span>Tamanho <span id="valor"></span> caracteres</span>
+        <input id="slider" class="slider" type="range" min="5" max="15"/>
+
+        <button id="button" class="button-cta">Gerar senhas</button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="password" class="passwaord">1092938</span>
+        <span>Clique na senha para copiar:</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
